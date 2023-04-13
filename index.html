@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Isaac | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.lordicon.com/ritcuqlt.js"></script>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <script src="https://kit.fontawesome.com/df28098cdc.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <lord-icon
+                    src="https://cdn.lordicon.com/dtgezzsi.json"
+                    trigger="loop"
+                    colors="primary:#8892b0,secondary:#08a88a"
+                    style="width:100px;height:100px">
+                </lord-icon>
+                <ul id="sideMenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#Certifications">Certifications</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-regular fa-square-xmark" style="color: #8892B0;" onclick="closeMenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" style="color: #8892B0;" onclick="openMenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>You Dream, I Build!</p>
+                <h1>Hi, I'm <span>Isaac Opata</span><br> Welcome to my Portfolio</h1>
+            </div>
+        </div>
+    </div>
+    <!--------about-------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/profile-image.jpg" alt="profile-image">
+                </div>
+                <div class="about-col-2">
+                    <h2 class="sub-title">About Me</h2>
+                    <p>I'm a Houston-based computer science major with a strong work ethic and a passion for <strong>Software Development, 
+                        Networking, System Administration, Cybersecurity</strong>, and <strong> Project Management.</strong>  I thrive on managing multiple projects with strict 
+                        timelines while upholding corporate values. I'm always seeking new challenges and opportunities to grow my 
+                        skill set, and I believe collaboration is key to driving innovation and success in the tech industry.</p>
+                    <div class="tab-title">
+                        <p class="tab-links active-link" onclick="openTab('languagesTechnologies')">Skills</p>
+                        <p class="tab-links " onclick="openTab('education')">Education</p>
+                        <p class="tab-links" onclick="openTab('experience')">Experience</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="languagesTechnologies">
+                        <ul>
+                            <li><span>Front-end Development:</span><br>Html, Css, JavaScript</li>
+                            <li><span>Backend-end Development:</span><br>JavaScript, C++, Python</li>
+                            <li><span>Tools, Libraries & Frameworks:</span><br>Bootstrap, React(in progress)<br></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>University of Houston-Downtown</span><br>Bachelor of Science in Computer Science</li>
+                            <li><span>Meta</span><br>Front-end Developer</li>
+                            <li><span>Google</span><br>Google Project Management: Professional</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Ripple Match - Leadership Development Intern:</span><br>• Selected from a pool of thousands of candidates to work closely with leaders of Ripple Match’s Leadership Team</br>
+                                •	Leveraged various growth strategies and tools including social media, email marketing, presentations, and peer and faculty member networking to grow the user base and awareness on campus<br>
+                                •	Strategically assessed growth and performance metrics to improve, change and/or help design new growth strategies
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!---------Certifications-------->
+    <div id="Certifications">
+        <div class="container">
+            <h1 class="sub-title">Certifications</h1>
+            <div class="certifications-List">
+                <div>
+                <lord-icon
+                src="https://cdn.lordicon.com/nocovwne.json"
+                trigger="loop"
+                colors="primary:#121331,secondary:#3080e8"
+                style="width:70px;height:70px">
+                </lord-icon> 
+                <h2>Front-end Developer by Meta </h2>
+                    <P>Coding and building interactive web pages using HTML5, CSS and JavaScript, and creating professional page layouts using 
+                        industry-standard tools such as Bootstrap, React, and Figma</P>
+                    <a href="https://coursera.org/share/6d3e5843c27d37104a6e84c337ef49e7" target="_blank" rel="noopener">Learn more</a>
+                </div>
+                <div>
+                    <lord-icon
+                    src="https://cdn.lordicon.com/nocovwne.json"
+                    trigger="loop"
+                    colors="primary:#121331,secondary:#3080e8"
+                    style="width:70px;height:70px">
+                    </lord-icon> 
+                    <h2>Backend-end Developer by Meta | in progress</h2>
+                    <P>Using in-demand programming skills to confidently use code to solve problems, learning programming systems 
+                        including Python Syntax, Linux commands, Git, SQL, Version Control, Cloud Hosting, APIs, JSON, XML and more</P>
+                    <a href="https://www.coursera.org/professional-certificates/meta-back-end-developer" target="_blank" rel="noopener">learn more</a>
+                </div>
+                <div>
+                    <lord-icon
+                    src="https://cdn.lordicon.com/nocovwne.json"
+                    trigger="loop"
+                    colors="primary:#121331,secondary:#3080e8"
+                    style="width:70px;height:70px">
+                    </lord-icon> 
+                    <h2>Technical Support Fundamental by Google</h2>
+                        <P> An overview of IT, covering computer hardware, 
+                            software, troubleshooting, customer service, and the Internet. Providing foundational knowledge in these areas, including 
+                            the ability to assemble a computer from scratch, install an operating system, and understand applications. </P>
+                        <a href="https://www.coursera.org/account/accomplishments/certificate/5CYSAV3HV7PQ" target="_blank" rel="noopener">Learn more</a>
+                    </div>
+                <div>
+                    <lord-icon
+                    src="https://cdn.lordicon.com/nocovwne.json"
+                    trigger="loop"
+                    colors="primary:#121331,secondary:#3080e8"
+                    style="width:70px;height:70px">
+                    </lord-icon> 
+                    <h2>Google Project Management by Google</h2>
+                    <P>Estimating time and budgets, running meetings and managing stakeholders, identifying and 
+                        managing risks, applying agile and scrum frameworks, leadership skills and team dynamics</P>
+                    <a href="https://coursera.org/share/1564ae821c8418b7e2284c28b9ec3638" target="_blank" rel="noopener">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--------projects-->
+    <div id="projects">
+        <div class="container">
+            <h2 class="sub-title">Projects</h2>
+            <div class="project-list">
+                <div class="project">
+                    <h3>Credit Card Form</h3>
+                    <img src="images/creditcard.jpg" alt="">
+                    <div class="layer">
+                        <P>I developed a credit card form using <strong>HTML, CSS, and JavaScript</strong> that captures and processes credit card 
+                            information securely and efficiently. The form features user-friendly input fields and validation checks 
+                            to ensure accuracy and reliability.</P>
+                        <a href="#"><box-icon name='link-external'></box-icon></a>
+                    </div>
+                </div>
+                <div class="project">
+                    <h3>Travel System</h3>
+                    <img src="images/airlineImage.jpg" alt="">
+                    <div class="layer">
+                        <P>The Travel System in <strong>C++</strong> is a program that allows users to input their preferred location, airline, number 
+                            of travelers, and airfare to obtain a comprehensive breakdown of the costs of their trip for the entire 
+                            family. It provides the carrier's name, airfare, round-trip ticket price for adults, and round-trip ticket 
+                            price for underage travelers under the age of 18 with a 25% discount. The program is implemented using 
+                            linked lists, nodes, and string data types to ensure efficient processing of data with minimal code.</P>
+                        <a href="#"> <box-icon name='link-external'></box-icon></a>
+                    </div>
+                </div>
+                <div class="project">
+                    <h3>Website Blog</h3>
+                    <img src="Images/blogImage.jpeg" alt="">
+                    <div class="layer">
+                        <P>My blog website, created using <strong>Bootstrap, HTML, CSS,</strong> and <strong>JavaScript,</strong> focuses on my career plans as a computer 
+                            science student and my future project ideas related to innovation, problem-solving, and creativity. The site 
+                            has a modern and minimalist design, with easy navigation and three main sections: innovation, problem-solving, 
+                            and creativity. Each section showcases my ideas and plans for related projects, with the goal of inspiring 
+                            others to pursue their own interests in computer science.</P>
+                        <a href="#"><box-icon name='link-external'></box-icon></a>
+                    </div>
+                </div>
+                <div class="project">
+                    <h3 class="projectTiltle">Chair Sales Tracker</h3>
+                    <img src="images/chairImage.jpg" alt="">
+                    <div class="layer">
+                        <P>The Chair Sales Tracker is a program developed in <strong>C++</strong> that tracks the amount of chairs sold for three chair 
+                            styles: American Colonial, Modern, and French Classical. It calculates and outputs the total dollar sales for 
+                            each style and overall sales in fixed point notation with two decimal places. The program ensures efficiency and 
+                            accuracy through the use of linked lists, nodes, and string data types. It's a user-friendly tool for furniture 
+                            stores and manufacturers to track their sales and make informed decisions for future sales and production.</P>
+                        <a href="#"> <box-icon name='link-external'></box-icon></a>
+                    </div>
+                </div>
+                <div class="project">
+                    <h3>Personal Website Portfolio</h3>
+                    <img src="images/websitePrrojectImage.png" alt="">
+                    <div class="layer">
+                        <P>My personal website portfolio is a fully responsive and user-friendly website that was built using <strong>HTML, CSS,</strong> and <strong>JavaScript</strong>. 
+                            I deployed it on Hostinger by acquiring my personal domain. The website showcases my professional portfolio, education, work 
+                            history, and notable projects. Visitors can easily navigate through my portfolio and leave a message using the contact form. 
+                            It provides a comprehensive overview of my career and is designed to impress potential clients or employers.</P>
+                        <a href="#"> <box-icon name='link-external'></box-icon></a>
+                    </div>
+                </div>
+                <div class="project">
+                    <h3>Garage Door Sensor & Alert</h3>
+                    <img src="images/garagedoor.png" alt="">
+                    <div class="layer">
+                        <P>Under Development</P>
+                        <a href="#"> <box-icon name='link-external'></box-icon></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>    
+    <!--------Contacts--------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p> <box-icon name='mail-send' color='#e21111' ></box-icon> opataisaac1@gmail.com</p>
+                    <p> <box-icon name='phone' type='solid' color='#1140e2' ></box-icon>3463771574</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/isaacopata/" target="_blank" rel="noopener"><box-icon name='linkedin-square' type='logo' animation='tada' color='#3087d6' ></box-icon></a>
+                        <a href="https://www.instagram.com/nii.ako/" target="_blank" rel="noopener"><box-icon name='instagram' type='logo' animation='tada' color='#b70a61' ></box-icon></a>
+                        <a href="https://github.com/IsaacOpata" target="_blank" rel="noopener"><box-icon name='github' type='logo' animation='tada' color='#8a8587' ></box-icon></a>
+                    </div>
+                    <a href="path/to/Isaac Opata Resume" ><button class="Button">Resume</button></a>
+                </div>
+                <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="Button">Send</button>
+                </form>
+                <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright &copy; Isaac Opata | Developed by Isaac</p>
+        </div>
+    </div>
+
+    <script>
+
+    var tabLinks = document.getElementsByClassName("tab-links");
+    var tabContents = document.getElementsByClassName("tab-contents");
+
+    function openTab(tabName) {
+        for(tabLink of tabLinks){
+            tabLink.classList.remove("active-link");
+        }
+        for(tabContent of tabContents){
+            tabContent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabName).classList.add("active-tab");
+    }
+
+
+    </script>
+
+<script>
+
+    var sideMenu = document.getElementById("sideMenu");
+
+    function openMenu(){
+        sideMenu.style.right = "0";
+    }
+    function closeMenu(){
+        sideMenu.style.right = "-200px";
+    }
+
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzsnp5o3emDUvIjPhixs-DbpmVNNuRgl6OhyVHWkvCBHRO0oB-08cE7pYcrjKrTOBYc/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+  
+</body>
+</html>
